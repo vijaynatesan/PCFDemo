@@ -1,6 +1,7 @@
 ---
 applications:
 - name: Prod_ProductSearch
+  instances: 2
   memory: 512M
   host: Prod_ProductSearch
   domain: cfapps.io
