@@ -1,0 +1,9 @@
+---
+applications:
+- name: Dev_ProductSearch
+  memory: 512M
+  host: Dev_ProductSearch
+  domain: cfapps.io
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  services:
+  - DevPostgreSQL

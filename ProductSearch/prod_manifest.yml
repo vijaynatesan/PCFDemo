@@ -1,9 +1,9 @@
 ---
 applications:
-- name: ProductSearch
+- name: Prod_ProductSearch
   memory: 512M
-  host: ProductSearch
+  host: Prod_ProductSearch
   domain: cfapps.io
   buildpack: java_buildpack
   services:
-  - DevPostgreSQL
+  - ProdPostgreSQL
